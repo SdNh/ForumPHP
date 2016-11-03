@@ -1,0 +1,13 @@
+{
+    "name": "etudiant/22-forum-php",
+    "authors": [
+        {
+            "name": "SdNh",
+            "email": "said.nehiri@gmail.com"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "^1.2"
+    }
+}
+ 
