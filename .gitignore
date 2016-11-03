@@ -1,3 +1,3 @@
 /vendor/
 /vendor/*
-/app/config/config.php.dist
+/app/config/config.php
