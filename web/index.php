@@ -16,7 +16,7 @@ if( $match && is_callable( $match['target'] ) ) {
 }
 require_once(__DIR__.'/../app/views/partials/footer.php');
 ?>
-<html>
+<!--html>
   <head>
     <title>Ajouter forum</title>
   </head>
@@ -43,4 +43,4 @@ require_once(__DIR__.'/../app/views/partials/footer.php');
   </table>
 </form>
 </body>
-</html>
+</html-->
