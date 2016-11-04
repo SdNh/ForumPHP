@@ -35,17 +35,17 @@
 ?>
 <form method="POST" action="<?php echo $router->generate('create-forum'); ?>" >
     <div class="form-group">
-        <label for="title">title</label>
-        <input type="text" class="form-control" name="title" id="title" placeholder="Titre" value="<?php echo (isset($result[0]['title']) && !empty($result[0]['title']))? $result[0]['title']:''; ?>">
+        <label for="title">Titre</label>
+        <input type="text" class="form-control" name="title" id="title" value="<?php echo (isset($result[0]['title']) && !empty($result[0]['title']))? $result[0]['title']:''; ?>">
     </div>
 
     <div class="form-group">
-        <label for="description">description</label>
-        <input type="text" class="form-control" name="description" id="description" placeholder="description" value="<?php echo (isset($result[0]['description']) && !empty($result[0]['description']))? $result[0]['description']:''; ?>">
+        <label for="description">Description</label>
+        <input type="text" class="form-control" name="description" id="description" value="<?php echo (isset($result[0]['description']) && !empty($result[0]['description']))? $result[0]['description']:''; ?>">
     </div>
 
     <div class="form-group">
-        <label for="image">image</label>
+        <label for="image">Image</label>
         <input type="text" class="form-control" name="image" id="image" >
     </div>
 
