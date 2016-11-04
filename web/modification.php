@@ -1,6 +1,6 @@
 <?php
-require 'inc/database.php';
-include 'inc/header.php';
+include '../app/config/database.php';
+
 
 
 if(isset($_POST['edit'])){
