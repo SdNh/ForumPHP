@@ -17,8 +17,5 @@
 
 </head>
 <body>
-    <div class="container">
-
-        
-    </div>
+    <div class="container"><!-- START CONTAINER -->
     
