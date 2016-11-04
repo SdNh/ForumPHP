@@ -4,9 +4,20 @@ $router = new AltoRouter();
 //$router->setBasePath('/php_wf3/08-Composer');
 
 // map homepage
-$router->map( 'GET', '/', function() {
-	require __DIR__ . '/../views/home.php';
+$router->map( 'GET|POST', '/', function() {
+	global $router, $db;
+	require __DIR__ . '/../views/registration/login.php';
 }, 'home');
+
+$router->map( 'GET', '/logout', function() {
+	global $router, $db;
+	require __DIR__ . '/../views/registration/logout.php';
+}, 'logout');
+
+$router->map( 'GET|POST', '/register', function() {
+	global $router, $db;
+	require __DIR__ . '/../views/registration/register.php';
+}, 'register');
 
 /*
 // map homepage
